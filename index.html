@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/icon" href="assets/img/patricia.ico">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <title>Potafolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/scrollbar.css">
+        <link rel="stylesheet" href="assets/css/layout.css">
+        <link rel="stylesheet" href="assets/css/nav.css">
+        <link rel="stylesheet" href="assets/css/social.css">
+        <link rel="stylesheet" href="assets/css/home.css">
+        <link rel="stylesheet" href="assets/css/button.css">
+        <link rel="stylesheet" href="assets/css/about.css">
+        <link rel="stylesheet" href="assets/css/skills.css">
+        <link rel="stylesheet" href="assets/css/training.css">
+        <link rel="stylesheet" href="assets/css/project.css">
+        <link rel="stylesheet" href="assets/css/contact.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
+        <link rel="stylesheet" href="assets/css/scrollup.css">
+        <link rel="stylesheet" href="assets/css/theme.css">
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Patricia</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i>
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>
+                                Sobre mi
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file nav__icon"></i>
+                                Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#training" class="nav__link">
+                                <i class="uil uil-briefcase nav__icon"></i>
+                                Formación
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#project" class="nav__link">
+                                <i class="uil uil-image nav__icon"></i>
+                                Proyectos
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>
+                                Contacto
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <!--Theme change button-->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+
+            <div class="social">
+
+                <a href="https://www.linkedin.com/in/patricia-garcia-desarrolladora/" target="_blank" class="social-icon">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+
+                <a href="https://github.com/GarciaRojasP" target="_blank" class="social-icon">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+
+            </div>
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" x="19" y="-1" href="assets/img/patricia-garcia.png"/> 
+                                    <!--xlink:href=""-->
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title name">
+                                Soy, Patricia García Rojas
+                            </h1>
+                            <h3 class="home__subtitle">Desarrolladora Front-end</h3>
+                            <p class="home__description">
+                                Me encanta lo que hago, busco siempre aprender y poner en práctica lo que voy aprendiendo. 
+                            </p>
+        
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">Sobre mi</h2>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/patricia.jpg" alt="Patricia" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description">Tengo 26 años y soy de la 
+                            Ciudad de México. Estudie la prepa como auxilia Contable 
+                            y en la Universidad tome la decisión de estudiar una 
+                            carrera tecnológica. Para mi fue un gran reto y un dolor 
+                            de cabeza sumergir me en este nuevo mundo.
+                        </p>
+                        <p class="about__description">
+                            Desde que comencé mis estudios poco a poco me interesé en 
+                            el desarrollo web.<br> 
+                            Actualmente me encuentro dentro del programa Oracle Next 
+                            Education en asociación con Alura Latam para seguir 
+                            adquiriendo conocimientos.
+                        </p>
+                        <p class="about__description">
+                            Soy vista como una persona activa, respetuosa, amable, naturalmente curiosa 
+                            y adaptable a los cambios.
+                        </p>
+
+                        <div class="about__buttons">
+                            <a href="assets/downloads/cv patricia.pdf" target="_blank" class="button button--flex">
+                                Curriculum
+                                <i class="uil uil-file-blank button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+
+                <div class="skills__group container grid">
+                    <div class="skills__container  grid">
+                        <h2 class="skills__subtitle">Hard skills </h2>
+                        <div>
+                            <!--==================== HARD SKILLS1 ====================-->
+                            <div class="skills__content skills__open">
+                                <div class="skills__header">
+                                    <i class="uil uil-brackets-curly skills__icon"></i>
+    
+                                    <div>
+                                        <h1 class="skills__title">Frond-End</h1>
+                                    </div>
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+    
+                                <div class="skills__list grid">
+                                    <div class="skills__data">
+                                        <img src="assets/img/hard-skills/html.png" alt="Html" class="skills__img-icon">
+                                        <p class="skills__subtitle-img">
+                                            Html 5
+                                        </p>
+                                    </div>
+    
+                                    <div class="skills__data">
+                                        <img src="assets/img/hard-skills/css.png" alt="Css" class="skills__img-icon">
+                                        <p class="skills__subtitle-img">
+                                            Css 3
+                                        </p>
+                                    </div>
+    
+                                    <div class="skills__data">
+                                        <img src="assets/img/hard-skills/js.png" alt="JavaScript" class="skills__img-icon">
+                                        <p class="skills__subtitle-img">
+                                            JavaScript
+                                        </p>
+                                    </div>
+    
+                                    <div class="skills__data">
+                                        <img src="assets/img/hard-skills/react.png" alt="React" class="skills__img-icon">
+                                        <p class="skills__subtitle-img">
+                                            React
+                                        </p>
+                                    </div>
+    
+                                    <div class="skills__data">
+                                        <img src="assets/img/hard-skills/Wordpress.png" alt="Wordpress" class="skills__img-icon">
+                                        <p class="skills__subtitle-img">
+                                            Wordpress
+                                        </p>
+                                    </div>
+    
+                                    <div class="skills__data">
+                                        <img src="assets/img/hard-skills/prestashop.png" alt="Prestashop" class="skills__img-icon">
+                                        <p class="skills__subtitle-img">
+                                            Prestashop
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!--====================HARD SKILLS2 ====================-->
+                            <div class="skills__content skills__close">
+                                <div class="skills__header">
+                                    <i class="uil uil-database skills__icon"></i>
+    
+                                    <div>
+                                        <h1 class="skills__title">Data base</h1>
+                                    </div>
+    
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+    
+                                <div class="skills__list grid">
+                                    <div class="skills__data">
+                                        <img src="assets/img/hard-skills/mysql.png" alt="Mysql" class="skills__img-icon skills__img-icon-grande">
+                                        <p class="skills__subtitle-img">
+                                            Mysql
+                                        </p>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="skills__container  grid">
+                        <h2 class="skills__subtitle">Soft skills</h2>
+                        <div>
+                            <!--====================SOFT SKILLS1 ====================-->
+                            <div class="skills__content skills__open">
+                                <div class="skills__header">
+                                    <i class="uil uil-brain skills__icon"></i>
+    
+                                    <div>
+                                        <h1 class="skills__title">Habilidades</h1>
+                                    </div>
+    
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+    
+                                <div class="skills__list grid">
+                                    <div class="skills__data">
+                                        <img src="assets/img/soft-skills/Trabajo-equipo.png" alt="Trabajo en equipo" class="skills__img-icon">
+                                        <p class="skills__subtitle-img">
+                                            Trabajo en equipo
+                                        </p>
+                                    </div>
+    
+                                    <div class="skills__data">
+                                        <img src="assets/img/soft-skills/dedicada.png" alt="Dedicada" class="skills__img-icon">
+                                        <p class="skills__subtitle-img">
+                                            Dedicada
+                                        </p>
+                                    </div>
+    
+                                    <div class="skills__data">
+                                        <img src="assets/img/soft-skills/curiosa.png" alt="Curiosa" class="skills__img-icon">
+                                        <p class="skills__subtitle-img">
+                                            Curiosa
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div> 
+                        </div>
+                    </div>        
+    
+                    <div class="skills__container  grid">
+                        <h2 class="skills__subtitle">Hobbies</h2>
+                        <div>
+                            <!--====================HOBBIES ====================-->
+                            <div class="skills__content skills__open">
+                                <div class="skills__header">
+                                    <i class="uil uil-brackets-curly skills__icon"></i>
+    
+                                    <div>
+                                        <h1 class="skills__title">Actividades</h1>
+                                    </div>
+    
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+    
+                                <div class="skills__list grid">
+                                    <div class="skills__data">
+                                        <img src="assets/img/hobbies/leer.png" alt="Leer" class="skills__img-icon skills__img-icon-grande">
+                                        <p class="skills__subtitle-img">
+                                            Leer
+                                        </p>
+                                    </div>
+    
+                                    <div class="skills__data">
+                                        <img src="assets/img/hobbies/ver-series.png" alt="Pantalla" class="skills__img-icon">
+                                        <p class="skills__subtitle-img">
+                                            Ver series
+                                        </p>
+                                    </div>
+    
+                                    <div class="skills__data">
+                                        <img src="assets/img/hobbies/musica.png" alt="Música" class="skills__img-icon">
+                                        <p class="skills__subtitle-img">
+                                            Escuchar música
+                                        </p>
+                                    </div>
+    
+                                    <div class="skills__data">
+                                        <img src="assets/img/hobbies/caminar.png" alt="Caminar" class="skills__img-icon">
+                                        <p class="skills__subtitle-img">
+                                            Caminar
+                                        </p>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <img src="assets/img/hobbies/estiramiento.png" alt="Estiramiento" class="skills__img-icon">
+                                        <p class="skills__subtitle-img">
+                                            Estiramiento
+                                        </p>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <img src="assets/img/hobbies/manualidad.png" alt="Manualidad" class="skills__img-icon">
+                                        <p class="skills__subtitle-img">
+                                            Manualidad
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--==================== TRAINING ====================-->
+            <section class="training section" id="training">
+                <h2 class="section__title">Formación</h2>
+
+                <div class="training__container container">
+                    <div class="training__tabs">
+                        <div class="training__button button--flex training__active" data-target="#education">
+                            <i class="uil uil-graduation-cap training__icon"></i>
+                            Académico
+                        </div>
+
+                        <div class="training__button button--flex" data-target="#course">
+                            <i class="uil uil-brain training__icon"></i>
+                            Cursos
+                        </div>
+                    </div>
+
+                    <div class="training__sections">
+                        <!--==================== TRAINING CONTENT 1 ====================-->
+                        <div class="training__content training__active" data-content id="education">
+                            <!--==================== TRAINING 1 ====================-->
+                            <div class="training__data">
+                                <div>
+                                    <h3 class="training__title">Técnico en contabilidad</h3>
+                                    <span class="training__subtitle">CDMX - CETIS 53</span>
+                                    <div class="training__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        Agosto 2012 - Julio 2015
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="training__rounder"></span>
+                                    <span class="training__line"></span>
+                                </div>
+                            </div>
+
+                            <!--==================== TRAINING 2 ====================-->
+                            <div class="training__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="training__rounder"></span>
+                                    <span class="training__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="training__title">TIC área Multimedia y Comercio Electrónico</h3>
+                                    <span class="training__subtitle">CDMX - UTN</span>
+                                    <div class="training__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        Agosto 2012 - Julio 2015
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <!--==================== TRAINING CONTENT 2 ====================-->
+                        <div class="training__content" data-content id="course">
+                            <!--==================== TRAINING 2 ====================-->
+                            <div class="training__data">
+                                <div>
+                                    <h3 class="training__title">CCNA Switching & Routing: Introducción a redes</h3>
+                                    <span class="training__subtitle">Cisco</span>
+                                    <div class="training__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        enero 2017
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="training__rounder"></span>
+                                    <span class="training__line"></span>
+                                </div>
+                            </div>
+
+                            <!--==================== TRAINING 2 ====================-->
+                            <div class="training__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="training__rounder"></span>
+                                    <span class="training__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="training__title">Front-end</h3>
+                                    <span class="training__subtitle">AluraLatam</span>
+                                    <div class="training__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        En curso
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PROJECT ====================--> 
+            <section class="project section" id="project">
+                <h2 class="section__title">Proyectos</h2>
+
+                <div class="project__container container">
+                    <!--==================== PROJECT 1 ====================-->
+                    <div class="project__content">
+                        <div class="project__img">
+                            <img src="https://user-images.githubusercontent.com/119550417/236624097-e6d7c5e3-d294-49b6-8a30-f8bf5cc92c3c.png" alt="Barbería Alura">
+                        </div>
+
+                        <div class="project__description">
+                            <h3 class="project__title">Barbería Alura</h3>
+                            <span class="button button--flex button--small button--link project__button">
+                                ver más
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div>
+
+                        <div class="project__modal">
+                            <div class="project__modal-content">
+                                <h4 class="project__modal-title">Barbería Alura</h4>
+                                <i class="uil uil-times project__modal-close"></i>
+                                <p class="project__modal-description">
+                                    Desarrollado en el curso HTML5 y CSS3
+                                </p>
+
+                                <p class="project__modal-personalizo">
+                                    Personalizo:
+                                </p>
+
+                                <ul class="project__modal-list">
+                                    <li class="project__modal__ctn-modification">
+                                        <i class="uil uil-check-circle project__modal__ctn-icon"></i>
+                                        <p>Banner de la Barbería Alura</p>
+                                    </li>
+
+                                    <li class="project__modal__ctn-modification">
+                                        <i class="uil uil-check-circle project__modal__ctn-icon"></i>
+                                        <p>La sección de contacto</p>
+                                    </li>
+                                </ul>
+                                <p class="project__modal-implement">
+                                    Implementó:
+                                </p>
+
+                                <div class="project__modal-project grid">
+                                    <li class="project__modal-service">
+                                        <span>Html 5</span>
+                                        <span>Css 3</span>
+                                        <span>Diseño responsivo</span>
+                                    </li>
+                                    <li class="project__modal-service">
+                                        <a href="https://garciarojasp.github.io/barberia-alura/" target="_blank" class="project__modal-link">
+                                            ver demo
+                                            <i class="uil uil-arrow-up-right project__modal-icon"></i>
+                                        </a>
+                                        <a href="https://github.com/GarciaRojasP/barberia-alura" target="_blank" class="project__modal-link">
+                                            ver repositorio
+                                            <i class="uil uil-github-alt project__modal-icon"></i>
+                                        </a>
+                                    </li>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== PROJECT 2 ====================-->
+                    <div class="project__content">
+                        <div class="project__img">
+                            <img src="https://user-images.githubusercontent.com/119550417/236968086-98e45df0-30f7-46c8-8f21-54b112103d8d.png" alt="Fruta y fruto">
+                        </div>
+
+                        <div class="project__description">
+                            <h3 class="project__title">Fruta y Fruto</h3>
+                            <span class="button button--flex button--small button--link project__button">
+                                ver más
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div>
+
+                        <div class="project__modal">
+                            <div class="project__modal-content">
+                                <h4 class="project__modal-title">Fruta y Fruto</h4>
+                                <i class="uil uil-times project__modal-close"></i>
+                                <p class="project__modal-description">
+                                    Desarrollado en el curso arquitectura Css
+                                </p>
+
+                                <p class="project__modal-personalizo">
+                                    Personalizo:
+                                </p>
+
+                                <ul class="project__modal-list">
+                                    <li class="project__modal__ctn-modification">
+                                        <i class="uil uil-check-circle project__modal__ctn-icon"></i>
+                                        <p>Banner de fruta y fruto</p>
+                                    </li>
+
+                                    <li class="project__modal__ctn-modification">
+                                        <i class="uil uil-check-circle project__modal__ctn-icon"></i>
+                                        <p>La sección de receta</p>
+                                    </li>
+
+                                    <li class="project__modal__ctn-modification">
+                                        <i class="uil uil-check-circle project__modal__ctn-icon"></i>
+                                        <p>Responsivo mejorado</p>
+                                    </li>
+                                </ul>
+                                <p class="project__modal-implement">
+                                    Implementó:
+                                </p>
+
+                                <div class="project__modal-project grid">
+                                    <li class="project__modal-service">
+                                        <span>Html 5</span>
+                                        <span>Css 3</span>
+                                        <span>Diseño responsivo</span>
+                                    </li>
+                                    <li class="project__modal-service">
+                                        <a href="https://garciarojasp.github.io/fruta-y-fruto/" target="_blank" class="project__modal-link">
+                                            ver demo
+                                            <i class="uil uil-arrow-up-right project__modal-icon"></i>
+                                        </a>
+                                        <a href="https://github.com/GarciaRojasP/fruta-y-fruto" target="_blank" class="project__modal-link">
+                                            ver repositorio
+                                            <i class="uil uil-github-alt project__modal-icon"></i>
+                                        </a>
+                                    </li>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== PROJECT 3 ====================-->
+                    <div class="project__content">
+                        <div class="project__img">
+                            <img src="https://user-images.githubusercontent.com/119550417/236985832-c6ff3176-e952-4dfa-999e-19e891db0f95.png" alt="Encriptado de texto">
+                        </div>
+                            
+                        <div class="project__description">
+                            <h3 class="project__title">Encriptador y desencriptador de texto</h3>
+                            <span class="button button--flex button--small button--link project__button">
+                                ver más
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div>
+
+                        <div class="project__modal">
+                            <div class="project__modal-content">
+                                <h4 class="project__modal-title">Encriptador y desencriptador de texto</h4>
+                                <i class="uil uil-times project__modal-close"></i>
+                                <p class="project__modal-description">
+                                    Challenge propuesto ONE
+                                </p>
+
+                                <p class="project__modal-personalizo">
+                                    Personalizo:
+                                </p>
+
+                                <ul class="project__modal-list">
+                                    <li class="project__modal__ctn-modification">
+                                        <i class="uil uil-check-circle project__modal__ctn-icon"></i>
+                                        <p>Código realizado desde cero</p>
+                                    </li>
+
+                                    <li class="project__modal__ctn-modification">
+                                        <i class="uil uil-check-circle project__modal__ctn-icon"></i>
+                                        <p>Estructura basado en figma</p>
+                                    </li>
+
+                                    <li class="project__modal__ctn-modification">
+                                        <i class="uil uil-check-circle project__modal__ctn-icon"></i>
+                                        <p>Diseño propio</p>
+                                    </li>
+                                </ul>
+                                <p class="project__modal-implement">
+                                    Implementó:
+                                </p>
+
+                                <div class="project__modal-project grid">
+                                    <li class="project__modal-service">
+                                        <span>Html 5</span>
+                                        <span>Css 3</span>
+                                        <span>JavaScript</span>
+                                        <span>Diseño responsivo</span>
+                                    </li>
+                                    <li class="project__modal-service">
+                                        <a href="https://garciarojasp.github.io/encriptador-de-texto/" target="_blank" class="project__modal-link">
+                                            ver demo
+                                            <i class="uil uil-arrow-up-right project__modal-icon"></i>
+                                        </a>
+                                        <a href="https://github.com/GarciaRojasP/encriptador-de-texto" target="_blank" class="project__modal-link">
+                                            ver repositorio
+                                            <i class="uil uil-github-alt project__modal-icon"></i>
+                                        </a>
+                                    </li>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== PROJECT 4 ====================-->
+                    <div class="project__content">
+                        <div class="project__img">
+                            <img src="https://user-images.githubusercontent.com/119550417/236987511-bccbc88a-0a8d-45d4-a41f-76651535adc9.png" alt="Portafolio">
+                        </div>
+                            
+                        <div class="project__description">
+                            <h3 class="project__title">Portafolio</h3>
+                            <span class="button button--flex button--small button--link project__button">
+                                ver más
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div>
+
+                        <div class="project__modal">
+                            <div class="project__modal-content">
+                                <h4 class="project__modal-title">Portafolio</h4>
+                                <i class="uil uil-times project__modal-close"></i>
+                                <p class="project__modal-description">
+                                    Challenge propuesto ONE
+                                </p>
+
+                                <p class="project__modal-personalizo">
+                                    Personalizo:
+                                </p>
+
+                                <ul class="project__modal-list">
+                                    <li class="project__modal__ctn-modification">
+                                        <i class="uil uil-check-circle project__modal__ctn-icon"></i>
+                                        <p>Código realizado desde cero</p>
+                                    </li>
+
+                                    <li class="project__modal__ctn-modification">
+                                        <i class="uil uil-check-circle project__modal__ctn-icon"></i>
+                                        <p>Estructura basado en figma</p>
+                                    </li>
+
+                                    <li class="project__modal__ctn-modification">
+                                        <i class="uil uil-check-circle project__modal__ctn-icon"></i>
+                                        <p>Diseño propio</p>
+                                    </li>
+                                </ul>
+                                <p class="project__modal-implement">
+                                    Implementó:
+                                </p>
+
+                                <div class="project__modal-project grid">
+                                    <li class="project__modal-service">
+                                        <span>Html 5</span>
+                                        <span>Css 3</span>
+                                        <span>JavaScript</span>
+                                        <span>Validación de formulario</span>
+                                        <span>Diseño responsivo</span>
+                                    </li>
+                                    <li class="project__modal-service">
+                                        <a href="https://garciarojasp.github.io/portafolio_patricia/" target="_blank" class="project__modal-link">
+                                            ver demo
+                                            <i class="uil uil-arrow-up-right project__modal-icon"></i>
+                                        </a>
+                                        <a href="https://github.com/GarciaRojasP/portafolio_patricia" target="_blank" class="project__modal-link">
+                                            ver repositorio
+                                            <i class="uil uil-github-alt project__modal-icon"></i>
+                                        </a>
+                                    </li>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== PROJECT 4 ====================-->
+                    <div class="project__content">
+                        <div class="project__img">
+                            <img src="https://user-images.githubusercontent.com/119550417/236988578-ae21521e-d58a-4552-8a1a-8b6915a06c9d.png" alt="Org">
+                        </div>
+                            
+                        <div class="project__description">
+                            <h3 class="project__title">Org</h3>
+                            <span class="button button--flex button--small button--link project__button">
+                                ver más
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div>
+
+                        <div class="project__modal">
+                            <div class="project__modal-content">
+                                <h4 class="project__modal-title">Org</h4>
+                                <i class="uil uil-times project__modal-close"></i>
+                                <p class="project__modal-description">
+                                    Desarrollado en el curso React: Desarrollando con Javascript
+                                </p>
+
+                                <p class="project__modal-personalizo">
+                                    Personalizo:
+                                </p>
+
+                                <ul class="project__modal-list">
+                                    <li class="project__modal__ctn-modification">
+                                        <i class="uil uil-check-circle project__modal__ctn-icon"></i>
+                                        <p>Implementación del responsivo</p>
+                                    </li>
+
+                                </ul>
+                                <p class="project__modal-implement">
+                                    Implementó:
+                                </p>
+
+                                <div class="project__modal-project grid">
+                                    <li class="project__modal-service">
+                                        <span>Html 5</span>
+                                        <span>Css 3</span>
+                                        <span>JavaScript</span>
+                                        <span>React: create-react-app </span>
+                                    </li>
+                                    <li class="project__modal-service">
+                                        <a href="https://org-nu.vercel.app/" target="_blank" class="project__modal-link">
+                                            ver demo
+                                            <i class="uil uil-arrow-up-right project__modal-icon"></i>
+                                        </a>
+                                        <a href="https://github.com/GarciaRojasP/org" target="_blank" class="project__modal-link">
+                                            ver repositorio
+                                            <i class="uil uil-github-alt project__modal-icon"></i>
+                                        </a>
+                                    </li>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contacto</h2>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <p class="contact__title">¿Quieres contactarme?</p>
+                        <p class="contact__subtitle">Complete el siguiente formularioy me pondré en contacto con usted lo antes posible.</p>
+                        <img src="assets/img/contacto.svg" alt="imagen de sobre" class="contact__img">
+                    </div>
+
+                    <form action="https://formsubmit.co/75dfb2d9fd093b82f85cb0cdede6fc29" method="POST" class="formulario grid" id="formulario">
+                        <fieldset class="fieldset">
+
+                            <div class="formulario__grupo" id="grupo__usuario">
+                                <div class="formulario__grupo-input">
+                                    <input type="text" id="nombre" name="nombre" class="formulario__input" placeholder="Nombre Completo:" required data-tipo="nombreCompleto">
+                                    <label class="formulario__label" for="nombre">Nombre Completo</label>
+                                    <i class="formulario__validacion-estado uil uil-times-circle"></i>
+                                    <span class="formulario__input-error">El campo no puede estar vacío</span>
+                                </div>
+                            </div>
+    
+                            <div class="formulario__grupo" id="grupo__email">
+                                <div class="formulario__grupo-input">
+                                    <input type="email" id="email" name="email" class="formulario__input" required placeholder="Correo Electrónico:" data-tipo="email">
+                                    <label class="formulario__label" for="email">Correo Electrónico:</label>
+                                    <i class="formulario__validacion-estado uil uil-times-circle"></i>
+                                    <span class="formulario__input-error">Ingrese algun correo</span>
+                                </div>
+                            </div>
+    
+                            <div class="formulario__grupo" id="grupo__asunto">
+                                <div class="formulario__grupo-input">
+                                    <input type="text" id="asunto" name="asunto" class="formulario__input" placeholder="Asunto:" required data-tipo="asunto">
+                                    <label class="formulario__label" for="asunto">Asunto:</label>
+                                    <i class="formulario__validacion-estado uil uil-times-circle"></i>
+                                    <span class="formulario__input-error">El campo no puede estar vacío</span>
+                                </div>
+                            </div>
+    
+                            <div class="formulario__grupo" id="grupo__mensaje">
+                                <div class="formulario__grupo-input">
+                                    <textarea id="mensaje" name="mensaje" cols="70" rows="10" class="formulario__input textarea" placeholder="Mensaje:" required data-tipo="mensaje"></textarea>
+                                    <label class="formulario__label" for="mensaje">Mensaje:</label>
+                                    <i class="formulario__validacion-estado uil uil-times-circle"></i>
+                                    <span class="formulario__input-error">El campo no puede estar vacío</span>
+                                </div>
+                                
+                            </div>
+    
+                        </fieldset>
+
+                        <button type="submit" class="button button--flex enviar">
+                            Enviar
+                            <i class="uil uil-message button__icon"></i>
+                        </button>
+
+                        <input type="hidden" name="_next" value="https://garciarojasp.github.io/portafolio_patricia/thanks.html">
+                        <input type="hidden" name="_template" value="table">
+                        
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <p class="footer__copy">&#169; copyright portafolio 2023 | Patricia Gacria</p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/theme.js"></script>
+        <script type="module" src="assets/js/app.js"></script>
+    </body>
+</html>

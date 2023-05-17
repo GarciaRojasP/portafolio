@@ -1,0 +1,44 @@
+    /*==================== social ====================*/
+    .social{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin: var(--mb-1) 0;
+      }
+      
+      .social-icon{
+        font-size: 1.25rem;
+        color: var(--first-color);
+        transition: 0.3s ease-in-out;
+        -webkit-transition: 0.3s ease-in-out;
+        -moz-transition: 0.3s ease-in-out;
+        -ms-transition: 0.3s ease-in-out;
+        -o-transition: 0.3s ease-in-out;
+}
+      
+      .social-icon:hover{
+        color: var(--first-color-alt);
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+}
+
+@media screen and (min-width: 768px) { /*5*/
+  .social{
+    gap: 1rem;
+    margin: var(--mb-1) 0;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 50%;
+    left: 5%;
+  }
+}
+
+@media screen and (min-width: 1325px) {
+  .social{
+    left: 10%;
+  }
+}

@@ -1,0 +1,39 @@
+/*========== SCROLL UP ==========*/
+.scrollup{
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: var(--first-color);
+    opacity: 0.7;
+    padding: 0 0.3rem;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+    z-index: var(--z-tooltip);
+    transition: 0.4s ease-out;
+    -webkit-transition: 0.4s ease-out;
+    -moz-transition: 0.4s ease-out;
+    -ms-transition: 0.4s ease-out;
+    -o-transition: 0.4s ease-out;
+  }
+  
+  .scrollup:hover{
+    background-color: var(--first-color-alt);
+  }
+  
+  .scrollup__icon{
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  /* Show scroll */
+  .show-scroll{
+    bottom: 5rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    .show-scroll{
+      bottom: 3.5rem;
+    }
+  }

@@ -1,0 +1,23 @@
+/*==================== FOOTER ====================*/
+.footer{
+    padding-top: 2rem;
+  }
+  
+  .footer__bg{
+    background-color: var(--first-color-second);
+    padding: 2rem 0 3rem;
+  }
+  
+  .footer__copy{
+    font-size: var(--smaller-font-size);
+    text-align: center;
+    color: var(--text-color-light);
+    margin-top: var(--mb-3);
+  }
+
+  @media screen and (min-width: 768px) {
+    .footer__bg{
+      padding: 3rem 0 3.5rem;
+    }
+    
+  }

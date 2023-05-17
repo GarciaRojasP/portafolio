@@ -1,0 +1,65 @@
+/*==================== BUTTONS ====================*/
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    font-weight: var(--font-medium);
+  }
+  
+  .button:hover{
+    background-color: var(--first-color-alt);
+  }
+  
+  .button__icon{
+    font-size: 1.25rem;
+    margin-left: var(--mb-0-5);
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+  }
+  
+  .button--white{
+    background-color: #fff;
+    color: var(--first-color);
+  }
+  
+  .button--white:hover{
+    background-color: #fff;
+    transform: scale(0.98);
+    -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    -o-transform: scale(0.98);
+  }
+  
+  .button--flex{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .button--small{
+    padding: 0.75rem 1rem;
+  }
+  
+  .button--link{
+    padding: 0;
+    background-color: transparent;
+    color: var(--first-color);
+  }
+  
+  .button--link:hover{
+    background-color: transparent;
+    color: var(--first-color-alt);
+  }
+  
