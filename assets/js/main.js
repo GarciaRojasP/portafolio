@@ -93,7 +93,7 @@ modalCloses.forEach( (modalClose) => {
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]');
-console.log(sections);
+/*console.log(sections);*/
 
 function scrollActive(){
     const scrollY = window.pageYOffset;
