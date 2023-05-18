@@ -91,6 +91,10 @@
   }
   
 @media screen and (min-width: 568px) {
+  .home{
+    padding-bottom: 0;
+  }
+
   .home__content{
     grid-template-columns: repeat(2, 1fr);
     padding-top: 3.5rem;

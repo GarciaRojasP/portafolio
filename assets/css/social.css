@@ -25,14 +25,20 @@
         -o-transform: scale(1.2);
 }
 
-@media screen and (min-width: 768px) { /*5*/
+@media screen and (min-width: 568px) {
+  .social{
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 768px) { 
   .social{
     gap: 1rem;
     margin: var(--mb-1) 0;
     flex-direction: column;
     align-items: center;
     position: fixed;
-    bottom: 50%;
+    bottom: 45%;
     left: 5%;
   }
 }
